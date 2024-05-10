@@ -15,6 +15,8 @@ export default function FoodMain() {
     const handleC1 = (c) => {
         console.log(c);
         let tm = fooddata.filter(item => item['운영주체 분류'] === c)
+                         .map(item => <FoodCard data={item} key={item["사업장명"]} />)
+                         setc1List(tm);
         console.log(tm);
     }
     const c1Bts = c1.map(item =>
