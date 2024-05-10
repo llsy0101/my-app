@@ -5,7 +5,8 @@ import { RiHomeHeartFill } from "react-icons/ri";
 // import MyDiv from './03/MyDiv'; 
 //import MyList from './04/MyList';
 //import Lotto from './05/Lotto';
-import BoxOffice from './06/BoxOffice';
+// import BoxOffice from './06/BoxOffice';
+import FoodMain from './07/FoodMain';
 
 
 function App() {
@@ -23,9 +24,10 @@ function App() {
         {/* <MyDiv /> */}
         {/* <MyList /> */}
         {/*<Lotto /> */}
-        <BoxOffice />
+        {/* <BoxOffice /> */}
+        <FoodMain />
       </main>
-      <footer className='flex justify-center items-center h-20 bg-red-200 text-black'>
+      <footer className='flex justify-center items-center h-20 bg-red-200 text-black font-bold'>
       ⓒ Se Yeong Lee , K-digital-7
       </footer>
     </div>
