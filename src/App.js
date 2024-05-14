@@ -6,13 +6,14 @@ import { RiHomeHeartFill } from "react-icons/ri";
 //import MyList from './04/MyList';
 //import Lotto from './05/Lotto';
 // import BoxOffice from './06/BoxOffice';
-import FoodMain from './07/FoodMain';
+// import FoodMain from './07/FoodMain';
+import TrafficMain from './08/TrafficMain';
 
 
 function App() {
   return (
     <div className="flex flex-col w-full max-w-screen-lg h-screen overflow-y-auto mx-auto">
-      <header className='flex justify-between items-center text-xl font-bold h-20 p-10 bg-red-200'>
+      <header className='flex justify-between items-center text-xl font-bold h-20 p-10 bg-rose-200'>
         <p>리액트 실습</p> 
         <p><RiHomeHeartFill className='text-4xl text-red-500'/></p>
       </header>
@@ -25,9 +26,10 @@ function App() {
         {/* <MyList /> */}
         {/*<Lotto /> */}
         {/* <BoxOffice /> */}
-        <FoodMain />
+        {/* <FoodMain /> */}
+        <TrafficMain />
       </main>
-      <footer className='flex justify-center items-center h-20 bg-red-200 text-black font-bold'>
+      <footer className='flex justify-center items-center h-20 bg-rose-200 text-black font-bold'>
       ⓒ Se Yeong Lee , K-digital-7
       </footer>
     </div>
