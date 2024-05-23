@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ButtonC from "../ui/ButtonC" ;
+import ButtonC from "./ui/ButtonC" ;
 
 export default function TrafficMain() {
   const [tdata, setTdata] = useState([]) ;    //전체 fetch데이터
